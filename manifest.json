@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Sites Dark Mode",
+  "version": "0.1.0",
+  "description": "Dark mode for different sites",
+  
+  "content_scripts": [
+    {
+      "css": ["webtoons.css"],
+      "matches": ["https://www.webtoons.com/*"]
+    }
+  ]
+}
