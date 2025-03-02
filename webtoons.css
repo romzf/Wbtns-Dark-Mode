@@ -1,19 +1,55 @@
-.viewer {
-  background: rgb(28, 28, 28);
+#content {
+    background: rgb(28, 28, 28) !important;
+    h3, span, .wcc_ReplyFolderToggle__root{
+        color: rgb(255, 255, 255) !important;
+    }
 }
 
 .episode_area {
-  background: rgb(43, 43, 43) !important;
+    background: rgb(43, 43, 43) !important;
 }
 
-#_bottomDisplay.cont_box * {
-  color: rgb(240, 240, 240);
+/* #_bottomDisplay.cont_box * {
+    color: rgb(240, 240, 240);
+} */
+
+/* #_bottomDisplay */
+#_bottomDisplay * {
+    
+
+    #comment_module {
+        .wcc_App__root wcc_layout_desktop{
+            .wcc_Editor__root span {
+                
+            }
+        }
+    }
+    .comment_area span {
+        color: rgb(255, 255, 255) !important;
+    }
+    .wcc_CommentReaction__root *{
+        background-color: rgb(43, 43, 43) !important;
+    }
 }
+
+
 
 .wcc_CommentReaction__root span {
-  color: rgb(22, 27, 35) !important;
+    color: rgb(22, 27, 35) !important;
 }
 
 .info_area {
-  background: rgba(124, 124, 124, 0.512) !important;
+    background: rgba(124, 124, 124, 0.512) !important;
 }
+
+#footer {
+    background: rgba(124, 124, 124, 0.512) !important;
+    .notice_area {
+        background: rgba(124, 124, 124, 0.512) !important;
+        span, a {
+            color: rgb(255, 255, 255) !important;
+        }
+    }
+    
+}
+

@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Sites Dark Mode",
+  "name": "Dark Mode for Webtoons ",
   "version": "0.1.0",
-  "description": "Dark mode for different sites",
+  "description": "Webtoons Dark Mode",
   
   "content_scripts": [
     {
