@@ -1,9 +1,9 @@
-#content {
-    background: rgb(28, 28, 28) !important;
+/* #content {
+    background: rgb(43, 43, 43) !important;
     span, .wcc_ReplyFolderToggle__root{
         color: rgb(255, 255, 255) !important;
     }
-}
+} */
 
 .episode_area {
     background: rgb(43, 43, 43) !important;
@@ -71,7 +71,7 @@
         
     }
 }
-
+/* Body */
 #container {
     #content {
         .main_daily_wrap {
@@ -99,6 +99,8 @@
         }
         .main_genre_wrap {
             background: rgb(43, 43, 43);
+            border-top: 1px solid #53ad8a;
+            border-bottom: 1px solid #53ad8a;
             .main_genre h2 a{
                 color: white;
                 .ico_arr1{
