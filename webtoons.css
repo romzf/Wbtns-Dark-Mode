@@ -42,16 +42,7 @@
     background: rgba(124, 124, 124, 0.512) !important;
 }
 
-#footer {
-    background: rgba(124, 124, 124, 0.512) !important;
-    .notice_area {
-        background: rgba(124, 124, 124, 0.512) !important;
-        span, a {
-            color: rgb(255, 255, 255) !important;
-        }
-    }
-    
-}
+
 
 
 /* Main */
@@ -116,37 +107,10 @@
             
         }
         .ranking_lst {
-            .left_area {
-                #newTitleRanking {
+            .left_area, .right_area {
+                #newTitleRanking, #genreRanking {
                     .title_area h2 {
-                        a {  /* New & Trending */
-                            color: white;
-                        }
-                        .ico_arr1 {
-                            background-position: -1280px -1164px;
-                            background-repeat: no-repeat;
-                            height: 24px;
-                            width: 15px;
-                            transform: scale(0.5);
-                            margin-top: -3px;
-                        }
-                    }
-                    .lst_type1 {
-                        border-bottom: 1px solid rgb(0, 217, 99);
-                        li {
-                            border-top: 1px solid rgb(0, 217, 99);
-                            border-bottom: 1px solid rgb(0, 217, 99);
-                            a .info_area p {
-                                color: white;
-                            }
-                        }
-                    }
-                }
-            }
-            .right_area {
-                #genreRanking {
-                    .title_area h2 {
-                        a {  /* New & Trending */
+                        a {  /* New & Trending and ORIGINALS by Genre */
                             color: white;
                         }
                         .ico_arr1 {
@@ -171,11 +135,41 @@
                 }
             }
         }
+        #_challengeRoundUpList {
+            border-top: 1px solid #01de897e;
+            .main_challenge {
+                background: rgb(43, 43, 43);
+                .title_area p{
+                    color: white;
+                }
+            }
+        }
         
 
     }
 }
 
+#footer {
+    background: rgb(43, 43, 43) !important;
+    .notice_area {
+        background: rgb(43, 43, 43);
+        .notice_detail a .ico_arr3{
+            background-position: -1280px -1164px;
+            background-repeat: no-repeat;
+            height: 24px;
+            width: 15px;
+            transform: scale(0.5);
+            margin-top: -3px;
+        }
+        span, a {
+            color: white;
+        }
+    }
+    /* .foot_app span, a, p:not(._languageList ul li a){ 
+        color: white;
+    } */
+    
+}
 
 /* body, button, input, select, table, textarea {
     color: rgb(255, 255, 255) !important;
