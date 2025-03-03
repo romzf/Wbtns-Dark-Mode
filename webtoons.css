@@ -74,13 +74,15 @@
 /* Body */
 #container {
     #content {
+        background: rgb(43, 43, 43);
         .main_daily_wrap {
             background: rgb(43, 43, 43);
-            border-bottom: 1px solid #53ad8a;
+            border-bottom: 1px solid #01de897e;
             .daily_tab_wrap{
                 background: rgb(43, 43, 43);
-                border-bottom: 1px solid #53ad8a;
-                border-top: 1px solid #53ad8a;
+                border-top: 1px solid #01de897e;
+                border-bottom: 1px solid #01de897e;
+                
                 .daily_tab_inner .daily_tab li button{
                     color: #fff;
                 }
@@ -91,16 +93,16 @@
         }
         .main_hotnew_wrap {
             background: rgb(43, 43, 43);
-            border-top: 1px solid #53ad8a;
-            border-bottom: 1px solid #53ad8a;
+            border-top: 0px solid black;
+            border-bottom: 0px solid black;
             .main_hotnew h2{
                 color: white;
             }
         }
         .main_genre_wrap {
             background: rgb(43, 43, 43);
-            border-top: 1px solid #53ad8a;
-            border-bottom: 1px solid #53ad8a;
+            border-top: 1px solid #01de897e;
+            border-bottom: 1px solid #01de897e;
             .main_genre h2 a{
                 color: white;
                 .ico_arr1{
@@ -108,21 +110,69 @@
                     background-repeat: no-repeat;
                     height: 24px;
                     width: 15px;
-                    transform: scale(0.7);
+                    transform: scale(0.6);
                 }
             }
-            .main_genre h2 a:hover{
-                color: rgb(0, 217, 99); 
-                .ico_arr1{
-                    background-position: -1280px -1164px;
-                    background-repeat: no-repeat;
-                    height: 24px;
-                    width: 15px;
-                    transform: scale(0.7);
-                }
-            }
-
+            
         }
+        .ranking_lst {
+            .left_area {
+                #newTitleRanking {
+                    .title_area h2 {
+                        a {  /* New & Trending */
+                            color: white;
+                        }
+                        .ico_arr1 {
+                            background-position: -1280px -1164px;
+                            background-repeat: no-repeat;
+                            height: 24px;
+                            width: 15px;
+                            transform: scale(0.5);
+                            margin-top: -3px;
+                        }
+                    }
+                    .lst_type1 {
+                        border-bottom: 1px solid rgb(0, 217, 99);
+                        li {
+                            border-top: 1px solid rgb(0, 217, 99);
+                            border-bottom: 1px solid rgb(0, 217, 99);
+                            a .info_area p {
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+            .right_area {
+                #genreRanking {
+                    .title_area h2 {
+                        a {  /* New & Trending */
+                            color: white;
+                        }
+                        .ico_arr1 {
+                            background-position: -1280px -1164px;
+                            background-repeat: no-repeat;
+                            height: 24px;
+                            width: 15px;
+                            transform: scale(0.5);
+                            margin-top: -3px;
+                        }
+                    }
+                    .lst_type1 {
+                        border-bottom: 1px solid rgb(0, 217, 99);
+                        li {
+                            border-top: 1px solid rgb(0, 217, 99);
+                            border-bottom: 1px solid rgb(0, 217, 99);
+                            a .info_area p {
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+
     }
 }
 
