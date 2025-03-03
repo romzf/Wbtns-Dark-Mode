@@ -1,6 +1,6 @@
 #content {
     background: rgb(28, 28, 28) !important;
-    h3, span, .wcc_ReplyFolderToggle__root{
+    span, .wcc_ReplyFolderToggle__root{
         color: rgb(255, 255, 255) !important;
     }
 }
@@ -66,9 +66,23 @@
             color: white;
         }
     }
-}.
+}
 
-
+#container {
+    #content {
+        #weekdayList {
+            background: rgb(43, 43, 43);
+            .daily_tab_wrap{
+                background: rgb(43, 43, 43);
+                border-bottom: 1px solid #53ad8a;
+                border-top: 1px solid #53ad8a;
+                .daily_tab_inner .daily_tab li button{
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
 
 
 /* body, button, input, select, table, textarea {
