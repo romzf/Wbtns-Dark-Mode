@@ -53,3 +53,24 @@
     
 }
 
+
+/* Main */
+/* Top */
+#header {
+    background: rgb(43, 43, 43) !important;
+    .header_inner {
+        .lnb li a{
+            color: white;
+        }
+        .sta span a{
+            color: white;
+        }
+    }
+}.
+
+
+
+
+/* body, button, input, select, table, textarea {
+    color: rgb(255, 255, 255) !important;
+} */
