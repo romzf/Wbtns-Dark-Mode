@@ -62,16 +62,21 @@
         .lnb li a{
             color: white;
         }
+        .lnb li a:hover{
+            color: rgb(0, 217, 99);
+        }
         .sta span a{
             color: white;
         }
+        
     }
 }
 
 #container {
     #content {
-        #weekdayList {
+        .main_daily_wrap {
             background: rgb(43, 43, 43);
+            border-bottom: 1px solid #53ad8a;
             .daily_tab_wrap{
                 background: rgb(43, 43, 43);
                 border-bottom: 1px solid #53ad8a;
@@ -79,7 +84,42 @@
                 .daily_tab_inner .daily_tab li button{
                     color: #fff;
                 }
+                .daily_tab_inner .daily_tab li button:hover {
+                    color: rgb(0, 217, 99); 
+                }
             }
+        }
+        .main_hotnew_wrap {
+            background: rgb(43, 43, 43);
+            border-top: 1px solid #53ad8a;
+            border-bottom: 1px solid #53ad8a;
+            .main_hotnew h2{
+                color: white;
+            }
+        }
+        .main_genre_wrap {
+            background: rgb(43, 43, 43);
+            .main_genre h2 a{
+                color: white;
+                .ico_arr1{
+                    background-position: -1280px -1164px;
+                    background-repeat: no-repeat;
+                    height: 24px;
+                    width: 15px;
+                    transform: scale(0.7);
+                }
+            }
+            .main_genre h2 a:hover{
+                color: rgb(0, 217, 99); 
+                .ico_arr1{
+                    background-position: -1280px -1164px;
+                    background-repeat: no-repeat;
+                    height: 24px;
+                    width: 15px;
+                    transform: scale(0.7);
+                }
+            }
+
         }
     }
 }
