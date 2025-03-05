@@ -1,176 +1,84 @@
-/* #content {
-    background: rgb(43, 43, 43) !important;
-    span, .wcc_ReplyFolderToggle__root{
-        color: rgb(255, 255, 255) !important;
-    }
-} */
-
-.episode_area {
-    background: rgb(43, 43, 43) !important;
-}
-
-/* #_bottomDisplay.cont_box * {
-    color: rgb(240, 240, 240);
-} */
-
-/* #_bottomDisplay */
-#_bottomDisplay * {
-    
-
-    #comment_module {
-        .wcc_App__root wcc_layout_desktop{
-            .wcc_Editor__root span {
-                
-            }
-        }
-    }
-    .comment_area span {
-        color: rgb(255, 255, 255) !important;
-    }
-    .wcc_CommentReaction__root *{
-        background-color: rgb(43, 43, 43) !important;
-    }
-}
-
-
-
-.wcc_CommentReaction__root span {
-    color: rgb(22, 27, 35) !important;
-}
-
-.info_area {
-    background: rgba(124, 124, 124, 0.512) !important;
-}
-
-
-
-
-/* Main */
-/* Top */
 #header {
-    background: rgb(43, 43, 43) !important;
-    .header_inner {
-        .lnb li a{
-            color: white;
-        }
-        .lnb li a:hover{
-            color: rgb(0, 217, 99);
-        }
-        .sta span a{
-            color: white;
-        }
-        
-    }
+  background: rgb(43, 43, 43);
 }
-/* Body */
-#container {
-    #content {
-        background: rgb(43, 43, 43);
-        .main_daily_wrap {
-            background: rgb(43, 43, 43);
-            border-bottom: 1px solid #01de897e;
-            .daily_tab_wrap{
-                background: rgb(43, 43, 43);
-                border-top: 1px solid #01de897e;
-                border-bottom: 1px solid #01de897e;
-                
-                .daily_tab_inner .daily_tab li button{
-                    color: #fff;
-                }
-                .daily_tab_inner .daily_tab li button:hover {
-                    color: rgb(0, 217, 99); 
-                }
-            }
-        }
-        .main_hotnew_wrap {
-            background: rgb(43, 43, 43);
-            border-top: 0px solid black;
-            border-bottom: 0px solid black;
-            .main_hotnew h2{
-                color: white;
-            }
-        }
-        .main_genre_wrap {
-            background: rgb(43, 43, 43);
-            border-top: 1px solid #01de897e;
-            border-bottom: 1px solid #01de897e;
-            .main_genre h2 a{
-                color: white;
-                .ico_arr1{
-                    background-position: -1280px -1164px;
-                    background-repeat: no-repeat;
-                    height: 24px;
-                    width: 15px;
-                    transform: scale(0.6);
-                }
-            }
-            
-        }
-        .ranking_lst {
-            .left_area, .right_area {
-                #newTitleRanking, #genreRanking {
-                    .title_area h2 {
-                        a {  /* New & Trending and ORIGINALS by Genre */
-                            color: white;
-                        }
-                        .ico_arr1 {
-                            background-position: -1280px -1164px;
-                            background-repeat: no-repeat;
-                            height: 24px;
-                            width: 15px;
-                            transform: scale(0.5);
-                            margin-top: -3px;
-                        }
-                    }
-                    .lst_type1 {
-                        border-bottom: 1px solid rgb(0, 217, 99);
-                        li {
-                            border-top: 1px solid rgb(0, 217, 99);
-                            border-bottom: 1px solid rgb(0, 217, 99);
-                            a .info_area p {
-                                color: white;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        #_challengeRoundUpList {
-            border-top: 1px solid #01de897e;
-            .main_challenge {
-                background: rgb(43, 43, 43);
-                .title_area p{
-                    color: white;
-                }
-            }
-        }
-        
-
-    }
+#header .header_inner .lnb li a {
+  color: white;
+}
+#header .header_inner .lnb li a:hover {
+  color: rgb(0, 217, 99);
+}
+#header .header_inner .sta span a {
+  color: white;
 }
 
-#footer {
-    background: rgb(43, 43, 43) !important;
-    .notice_area {
-        background: rgb(43, 43, 43);
-        .notice_detail a .ico_arr3{
-            background-position: -1280px -1164px;
-            background-repeat: no-repeat;
-            height: 24px;
-            width: 15px;
-            transform: scale(0.5);
-            margin-top: -3px;
-        }
-        span, a {
-            color: white;
-        }
-    }
-    /* .foot_app span, a, p:not(._languageList ul li a){ 
-        color: white;
-    } */
-    
+#container #content {
+  background: rgb(43, 43, 43);
 }
-
-/* body, button, input, select, table, textarea {
-    color: rgb(255, 255, 255) !important;
-} */
+#container #content .main_daily_wrap {
+  background: rgb(43, 43, 43);
+  border-bottom: 1px solid rgba(1, 222, 137, 0.4941176471);
+}
+#container #content .main_daily_wrap .daily_tab_wrap {
+  background: rgb(43, 43, 43);
+  border-top: 1px solid rgba(1, 222, 137, 0.4941176471);
+  border-bottom: 1px solid rgba(1, 222, 137, 0.4941176471);
+}
+#container #content .main_daily_wrap .daily_tab_wrap .daily_tab_inner .daily_tab li button {
+  color: #fff;
+}
+#container #content .main_daily_wrap .daily_tab_wrap .daily_tab_inner .daily_tab li button:hover {
+  color: rgb(0, 217, 99);
+}
+#container #content .main_hotnew_wrap {
+  background: rgb(43, 43, 43);
+  border-top: 0px solid black;
+  border-bottom: 0px solid black;
+}
+#container #content .main_hotnew_wrap .main_hotnew h2 {
+  color: white;
+}
+#container #content .main_genre_wrap {
+  background: rgb(43, 43, 43);
+  border-top: 1px solid rgba(1, 222, 137, 0.4941176471);
+  border-bottom: 1px solid rgba(1, 222, 137, 0.4941176471);
+}
+#container #content .main_genre_wrap .main_genre h2 a {
+  color: white;
+}
+#container #content .main_genre_wrap .main_genre h2 a .ico_arr1 {
+  background-position: -1280px -1164px;
+  background-repeat: no-repeat;
+  height: 24px;
+  width: 15px;
+  transform: scale(0.6);
+}
+#container #content .ranking_lst .left_area #newTitleRanking .title_area h2 a, #container #content .ranking_lst .left_area #genreRanking .title_area h2 a, #container #content .ranking_lst .right_area #newTitleRanking .title_area h2 a, #container #content .ranking_lst .right_area #genreRanking .title_area h2 a { /* New & Trending and ORIGINALS by Genre */
+  color: white;
+}
+#container #content .ranking_lst .left_area #newTitleRanking .title_area h2 .ico_arr1, #container #content .ranking_lst .left_area #genreRanking .title_area h2 .ico_arr1, #container #content .ranking_lst .right_area #newTitleRanking .title_area h2 .ico_arr1, #container #content .ranking_lst .right_area #genreRanking .title_area h2 .ico_arr1 {
+  background-position: -1280px -1164px;
+  background-repeat: no-repeat;
+  height: 24px;
+  width: 15px;
+  transform: scale(0.5);
+  margin-top: -3px;
+}
+#container #content .ranking_lst .left_area #newTitleRanking .lst_type1, #container #content .ranking_lst .left_area #genreRanking .lst_type1, #container #content .ranking_lst .right_area #newTitleRanking .lst_type1, #container #content .ranking_lst .right_area #genreRanking .lst_type1 {
+  border-bottom: 1px solid rgb(0, 217, 99);
+}
+#container #content .ranking_lst .left_area #newTitleRanking .lst_type1 li, #container #content .ranking_lst .left_area #genreRanking .lst_type1 li, #container #content .ranking_lst .right_area #newTitleRanking .lst_type1 li, #container #content .ranking_lst .right_area #genreRanking .lst_type1 li {
+  border-top: 1px solid rgb(0, 217, 99);
+  border-bottom: 1px solid rgb(0, 217, 99);
+}
+#container #content .ranking_lst .left_area #newTitleRanking .lst_type1 li a .info_area p, #container #content .ranking_lst .left_area #genreRanking .lst_type1 li a .info_area p, #container #content .ranking_lst .right_area #newTitleRanking .lst_type1 li a .info_area p, #container #content .ranking_lst .right_area #genreRanking .lst_type1 li a .info_area p {
+  color: white;
+}
+#container #content #_challengeRoundUpList {
+  border-top: 1px solid rgba(1, 222, 137, 0.4941176471);
+}
+#container #content #_challengeRoundUpList .main_challenge {
+  background: rgb(43, 43, 43);
+}
+#container #content #_challengeRoundUpList .main_challenge .title_area p {
+  color: white;
+}/*# sourceMappingURL=webtoons.css.map */

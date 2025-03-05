@@ -1,0 +1,109 @@
+$darkBackground: rgb(43, 43, 43);
+$darkText: white;
+$HoverText: rgb(0, 217, 99);
+$lineBreak: 1px solid #01de897e;
+$rankLineBreak: 1px solid rgb(0, 217, 99);
+
+// Top
+#header {
+    background: $darkBackground;
+    .header_inner {
+        .lnb li a{
+            color: $darkText;
+        }
+        .lnb li a:hover{
+            color: $HoverText;
+        }
+        .sta span a{
+            color: $darkText;
+        }
+        
+    }
+}
+
+// Body
+#container {
+    #content {
+        background: $darkBackground;
+        .main_daily_wrap {
+            background: $darkBackground;
+            border-bottom: $lineBreak;
+            .daily_tab_wrap{
+                background: $darkBackground;
+                border-top: $lineBreak;
+                border-bottom: $lineBreak;
+                
+                .daily_tab_inner .daily_tab li button{
+                    color: #fff;
+                }
+                .daily_tab_inner .daily_tab li button:hover {
+                    color: $HoverText; 
+                }
+            }
+        }
+        .main_hotnew_wrap {
+            background: $darkBackground;
+            border-top: 0px solid black;
+            border-bottom: 0px solid black;
+            .main_hotnew h2{
+                color: white;
+            }
+        }
+        .main_genre_wrap {
+            background: $darkBackground;
+            border-top: $lineBreak;
+            border-bottom: $lineBreak;
+            .main_genre h2 a{
+                color: white;
+                .ico_arr1{
+                    background-position: -1280px -1164px;
+                    background-repeat: no-repeat;
+                    height: 24px;
+                    width: 15px;
+                    transform: scale(0.6);
+                }
+            }
+            
+        }
+        .ranking_lst {
+            .left_area, .right_area {
+                #newTitleRanking, #genreRanking {
+                    .title_area h2 {
+                        a {  /* New & Trending and ORIGINALS by Genre */
+                            color: white;
+                        }
+                        .ico_arr1 {
+                            background-position: -1280px -1164px;
+                            background-repeat: no-repeat;
+                            height: 24px;
+                            width: 15px;
+                            transform: scale(0.5);
+                            margin-top: -3px;
+                        }
+                    }
+                    .lst_type1 {
+                        border-bottom: $rankLineBreak;
+                        li {
+                            border-top: $rankLineBreak;
+                            border-bottom: $rankLineBreak;
+                            a .info_area p {
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #_challengeRoundUpList {
+            border-top: $lineBreak;
+            .main_challenge {
+                background: $darkBackground;
+                .title_area p{
+                    color: white;
+                }
+            }
+        }
+        
+
+    }
+}
