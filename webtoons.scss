@@ -1,21 +1,31 @@
-$darkBackground: rgb(43, 43, 43);
-$darkText: white;
-$HoverText: rgb(0, 217, 99);
-$lineBreak: 1px solid #01de897e;
-$rankLineBreak: 1px solid rgb(0, 217, 99);
+$background-dark: rgb(43, 43, 43);
+$color-white: white;
+$color-lightgreen: rgb(0, 217, 99);
+$line-darkgreen: 1px solid #01de897e;
+$line-transparent: 0px solid black;
+$line-lightgreen: 1px solid rgb(0, 217, 99);
+
+%icon-gray-arrow {
+    background-position: -1280px -1164px;
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 15px;
+}
+
+
 
 // Top
 #header {
-    background: $darkBackground;
+    background: $background-dark !important;
     .header_inner {
         .lnb li a{
-            color: $darkText;
+            color: $color-white;
         }
         .lnb li a:hover{
-            color: $HoverText;
+            color: $color-lightgreen;
         }
         .sta span a{
-            color: $darkText;
+            color: $color-white;
         }
         
     }
@@ -24,42 +34,39 @@ $rankLineBreak: 1px solid rgb(0, 217, 99);
 // Body
 #container {
     #content {
-        background: $darkBackground;
+        background: $background-dark;
         .main_daily_wrap {
-            background: $darkBackground;
-            border-bottom: $lineBreak;
+            background: $background-dark;
+            border-bottom: $line-darkgreen;
             .daily_tab_wrap{
-                background: $darkBackground;
-                border-top: $lineBreak;
-                border-bottom: $lineBreak;
+                background: $background-dark;
+                border-top: $line-darkgreen;
+                border-bottom: $line-darkgreen;
                 
                 .daily_tab_inner .daily_tab li button{
-                    color: #fff;
+                    color: $color-white;
                 }
                 .daily_tab_inner .daily_tab li button:hover {
-                    color: $HoverText; 
+                    color: $color-lightgreen; 
                 }
             }
         }
         .main_hotnew_wrap {
-            background: $darkBackground;
-            border-top: 0px solid black;
-            border-bottom: 0px solid black;
+            background: $background-dark;
+            border-top: $line-transparent;
+            border-bottom: $line-transparent;
             .main_hotnew h2{
-                color: white;
+                color: $color-white;
             }
         }
         .main_genre_wrap {
-            background: $darkBackground;
-            border-top: $lineBreak;
-            border-bottom: $lineBreak;
+            background: $background-dark;
+            border-top: $line-darkgreen;
+            border-bottom: $line-darkgreen;
             .main_genre h2 a{
-                color: white;
+                color: $color-white;
                 .ico_arr1{
-                    background-position: -1280px -1164px;
-                    background-repeat: no-repeat;
-                    height: 24px;
-                    width: 15px;
+                    @extend %icon-gray-arrow;
                     transform: scale(0.6);
                 }
             }
@@ -70,24 +77,21 @@ $rankLineBreak: 1px solid rgb(0, 217, 99);
                 #newTitleRanking, #genreRanking {
                     .title_area h2 {
                         a {  /* New & Trending and ORIGINALS by Genre */
-                            color: white;
+                            color: $color-white;
                         }
                         .ico_arr1 {
-                            background-position: -1280px -1164px;
-                            background-repeat: no-repeat;
-                            height: 24px;
-                            width: 15px;
+                            @extend %icon-gray-arrow;
                             transform: scale(0.5);
                             margin-top: -3px;
                         }
                     }
                     .lst_type1 {
-                        border-bottom: $rankLineBreak;
+                        border-bottom: $line-lightgreen;
                         li {
-                            border-top: $rankLineBreak;
-                            border-bottom: $rankLineBreak;
+                            border-top: $line-lightgreen;
+                            border-bottom: $line-lightgreen;
                             a .info_area p {
-                                color: white;
+                                color: $color-white;
                             }
                         }
                     }
@@ -95,15 +99,46 @@ $rankLineBreak: 1px solid rgb(0, 217, 99);
             }
         }
         #_challengeRoundUpList {
-            border-top: $lineBreak;
+            border-top: $line-darkgreen;
             .main_challenge {
-                background: $darkBackground;
+                background: $background-dark;
                 .title_area p{
-                    color: white;
+                    color: $color-white;
                 }
             }
         }
         
 
     }
+}
+
+#footer {
+    background: $background-dark !important;
+    border-top: $line-lightgreen !important;
+    .notice_area {
+        background: $background-dark;
+        border-bottom: $line-lightgreen !important;
+        .notice_detail a .ico_arr3{
+            @extend %icon-gray-arrow;
+            transform: scale(0.5);
+            margin-top: -3px;
+        }
+        span, a {
+            color: $color-white;
+        }
+    }
+    .foot_app {
+        border-bottom: $line-lightgreen;
+        span, a, p{ 
+            color: $color-white;
+        }
+    }
+    .foot_menu {
+        li a:not(li ul li a){
+            color: $color-white;
+        }
+    }
+    
+    
+    
 }

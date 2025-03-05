@@ -1,5 +1,12 @@
+#footer .notice_area .notice_detail a .ico_arr3, #container #content .ranking_lst .left_area #newTitleRanking .title_area h2 .ico_arr1, #container #content .ranking_lst .left_area #genreRanking .title_area h2 .ico_arr1, #container #content .ranking_lst .right_area #newTitleRanking .title_area h2 .ico_arr1, #container #content .ranking_lst .right_area #genreRanking .title_area h2 .ico_arr1, #container #content .main_genre_wrap .main_genre h2 a .ico_arr1 {
+  background-position: -1280px -1164px;
+  background-repeat: no-repeat;
+  height: 24px;
+  width: 15px;
+}
+
 #header {
-  background: rgb(43, 43, 43);
+  background: rgb(43, 43, 43) !important;
 }
 #header .header_inner .lnb li a {
   color: white;
@@ -24,7 +31,7 @@
   border-bottom: 1px solid rgba(1, 222, 137, 0.4941176471);
 }
 #container #content .main_daily_wrap .daily_tab_wrap .daily_tab_inner .daily_tab li button {
-  color: #fff;
+  color: white;
 }
 #container #content .main_daily_wrap .daily_tab_wrap .daily_tab_inner .daily_tab li button:hover {
   color: rgb(0, 217, 99);
@@ -46,20 +53,12 @@
   color: white;
 }
 #container #content .main_genre_wrap .main_genre h2 a .ico_arr1 {
-  background-position: -1280px -1164px;
-  background-repeat: no-repeat;
-  height: 24px;
-  width: 15px;
   transform: scale(0.6);
 }
 #container #content .ranking_lst .left_area #newTitleRanking .title_area h2 a, #container #content .ranking_lst .left_area #genreRanking .title_area h2 a, #container #content .ranking_lst .right_area #newTitleRanking .title_area h2 a, #container #content .ranking_lst .right_area #genreRanking .title_area h2 a { /* New & Trending and ORIGINALS by Genre */
   color: white;
 }
 #container #content .ranking_lst .left_area #newTitleRanking .title_area h2 .ico_arr1, #container #content .ranking_lst .left_area #genreRanking .title_area h2 .ico_arr1, #container #content .ranking_lst .right_area #newTitleRanking .title_area h2 .ico_arr1, #container #content .ranking_lst .right_area #genreRanking .title_area h2 .ico_arr1 {
-  background-position: -1280px -1164px;
-  background-repeat: no-repeat;
-  height: 24px;
-  width: 15px;
   transform: scale(0.5);
   margin-top: -3px;
 }
@@ -80,5 +79,30 @@
   background: rgb(43, 43, 43);
 }
 #container #content #_challengeRoundUpList .main_challenge .title_area p {
+  color: white;
+}
+
+#footer {
+  background: rgb(43, 43, 43) !important;
+  border-top: 1px solid rgb(0, 217, 99) !important;
+}
+#footer .notice_area {
+  background: rgb(43, 43, 43);
+  border-bottom: 1px solid rgb(0, 217, 99) !important;
+}
+#footer .notice_area .notice_detail a .ico_arr3 {
+  transform: scale(0.5);
+  margin-top: -3px;
+}
+#footer .notice_area span, #footer .notice_area a {
+  color: white;
+}
+#footer .foot_app {
+  border-bottom: 1px solid rgb(0, 217, 99);
+}
+#footer .foot_app span, #footer .foot_app a, #footer .foot_app p {
+  color: white;
+}
+#footer .foot_menu li a:not(li ul li a) {
   color: white;
 }/*# sourceMappingURL=webtoons.css.map */
