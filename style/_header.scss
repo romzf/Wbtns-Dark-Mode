@@ -1,0 +1,16 @@
+// Top
+#header {
+    background: $background-dark !important;
+    .header_inner {
+        .lnb li a{
+            color: $color-white;
+        }
+        .lnb li a:hover{
+            color: $color-lightgreen;
+        }
+        .sta span a{
+            color: $color-white;
+        }
+        
+    }
+}

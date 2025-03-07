@@ -1,0 +1,81 @@
+@import "./icons";
+
+// Body
+#container {
+    #content {
+        background: $background-dark;
+        .main_daily_wrap {
+            background: $background-dark;
+            border-bottom: $line-darkgreen;
+            .daily_tab_wrap{
+                background: $background-dark;
+                border-top: $line-darkgreen;
+                border-bottom: $line-darkgreen;
+                
+                .daily_tab_inner .daily_tab li button{
+                    color: $color-white;
+                }
+                .daily_tab_inner .daily_tab li button:hover {
+                    color: $color-lightgreen; 
+                }
+            }
+        }
+        .main_hotnew_wrap {
+            background: $background-dark;
+            border-top: $line-transparent;
+            border-bottom: $line-transparent;
+            .main_hotnew h2{
+                color: $color-white;
+            }
+        }
+        .main_genre_wrap {
+            background: $background-dark;
+            border-top: $line-darkgreen;
+            border-bottom: $line-darkgreen;
+            .main_genre h2 a{
+                color: $color-white;
+                .ico_arr1{
+                    @extend %icon-gray-arrow;
+                    transform: scale(0.6);
+                }
+            }
+            
+        }
+        .ranking_lst {
+            .left_area, .right_area {
+                #newTitleRanking, #genreRanking {
+                    .title_area h2 {
+                        a {  /* New & Trending and ORIGINALS by Genre */
+                            color: $color-white;
+                        }
+                        .ico_arr1 {
+                            @extend %icon-gray-arrow;
+                            transform: scale(0.5);
+                            margin-top: -3px;
+                        }
+                    }
+                    .lst_type1 {
+                        border-bottom: $line-lightgreen;
+                        li {
+                            border-top: $line-lightgreen;
+                            border-bottom: $line-lightgreen;
+                            a .info_area p {
+                                color: $color-white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #_challengeRoundUpList {
+            border-top: $line-darkgreen;
+            .main_challenge {
+                background: $background-dark;
+                .title_area p{
+                    color: $color-white;
+                }
+            }
+        }
+        
+    }
+}
