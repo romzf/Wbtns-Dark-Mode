@@ -6,7 +6,7 @@
   
   "content_scripts": [
     {
-      "css": ["webtoons.css"],
+      "css": ["webtns.css"],
       "matches": ["https://www.webtoons.com/*"]
     }
   ]
