@@ -123,6 +123,16 @@
                 color: $color-lightgreen;
             }
         }
+        .snb_sub_genre {
+            background: $background-dark;
+            border-bottom: $line-darkgreen;
+            .ly_lst_genre.as_genre li a{
+                color: $color-white;
+            }
+            .ly_lst_genre.as_genre li a:hover{
+                color: $color-lightgreen;
+            }
+        }
         
     }
 }

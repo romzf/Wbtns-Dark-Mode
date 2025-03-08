@@ -117,6 +117,16 @@
 #container #content .snb_wrap .snb_inner .snb._genre li a:hover {
   color: rgb(0, 217, 99);
 }
+#container #content .snb_sub_genre {
+  background: rgb(43, 43, 43);
+  border-bottom: 1px solid rgba(1, 222, 137, 0.4941176471);
+}
+#container #content .snb_sub_genre .ly_lst_genre.as_genre li a {
+  color: white;
+}
+#container #content .snb_sub_genre .ly_lst_genre.as_genre li a:hover {
+  color: rgb(0, 217, 99);
+}
 
 #footer {
   background: rgb(43, 43, 43) !important;
