@@ -76,6 +76,53 @@
                 }
             }
         }
+        // Originals
+        div[style*="margin: 69px auto auto auto; width: 1208px; position: relative;"] {
+            #dailyList.daily_lst {
+                h2#ongoing{
+                    border-bottom: $line-lightgreen;
+                    color: $color-white;
+                }
+                .daily_section {
+                    h3 a{
+                        color: $color-white;
+                    }
+                    h3 a:hover{
+                        color: $color-lightgreen;
+                    }
+                }
+            }
+            .daily_lst.comp .daily_section.on h2#completed{
+                color: $color-white;
+            }
+        }
+        .snb_wrap.daily._snb_wrap {
+            background: $background-dark;
+            border-top: $line-darkgreen;
+            border-bottom: $line-darkgreen;
+            .snb_inner {
+                ul.snb._type_selector{
+                    li a{
+                        color: $color-white;
+                    }
+                    li a:hover{
+                        color: $color-lightgreen;
+                    }
+                }
+            }
+        }
+        // Genre
+        .snb_wrap{
+            background: $background-dark;
+            border-top: $line-darkgreen;
+            border-bottom: $line-darkgreen;
+            .snb_inner .snb._genre li a {
+                color: $color-white;
+            }
+            .snb_inner .snb._genre li a:hover{
+                color: $color-lightgreen;
+            }
+        }
         
     }
 }
