@@ -90,6 +90,9 @@
                     h3 a:hover{
                         color: $color-lightgreen;
                     }
+                    h3 a:before{
+                        background-color: $color-lightgreen;
+                    }
                 }
             }
             .daily_lst.comp .daily_section.on h2#completed{
@@ -108,6 +111,9 @@
                     li a:hover{
                         color: $color-lightgreen;
                     }
+                    li a:before{
+                        background-color: $color-lightgreen;
+                    }
                 }
             }
         }
@@ -122,6 +128,9 @@
             .snb_inner .snb._genre li a:hover{
                 color: $color-lightgreen;
             }
+            .snb_inner .snb._genre li a:before {
+                background-color: $color-lightgreen;
+            }
         }
         .snb_sub_genre {
             background: $background-dark;
@@ -132,7 +141,56 @@
             .ly_lst_genre.as_genre li a:hover{
                 color: $color-lightgreen;
             }
+            .ly_lst_genre.as_genre li a:before {
+                background-color: $color-lightgreen;
+            }
         }
-        
+        // Popular
+        .snb_wrap.popular {
+            .snb_inner {
+                .snb._ranking_tab {
+                    li a {
+                        color: $color-white;
+                    }
+                    li a:hover {
+                        color: $color-lightgreen;
+                    }
+                    li a:before {
+                        background-color: $color-lightgreen;
+                    }
+                }
+            }
+        }
+        .popular_wrap {
+            .ranking_lst.popular{
+                .title_area h2{
+                    color: $color-white;
+                }
+                ul.lst_type1 {
+                    li {
+                        border-bottom: $line-lightgreen;
+                    }
+                    li.ranking_top a .info_area {
+                        .subj, .author, .summary span {
+                            color: $color-white;
+                        }
+                    }
+                    li a .info_area {
+                        .subj, .author {
+                            color: $color-white;
+                        }
+                    }
+                    li a .num_area {
+                        .ico_n2, .ico_n3, .ico_n4, .ico_n5, .ico_n6, .ico_n7, .ico_n8, .ico_n9, .ico_n10 {
+                            filter: $filter-invert;
+                        }
+                    }
+                }
+                ul.ranking_tab {
+                    border-bottom: $line-darkgreen;
+                    border-top: $line-darkgreen;
+                }
+            }
+        }
     }
 }

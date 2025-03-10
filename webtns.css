@@ -92,6 +92,9 @@
 #container #content div[style*="margin: 69px auto auto auto; width: 1208px; position: relative;"] #dailyList.daily_lst .daily_section h3 a:hover {
   color: rgb(0, 217, 99);
 }
+#container #content div[style*="margin: 69px auto auto auto; width: 1208px; position: relative;"] #dailyList.daily_lst .daily_section h3 a:before {
+  background-color: rgb(0, 217, 99);
+}
 #container #content div[style*="margin: 69px auto auto auto; width: 1208px; position: relative;"] .daily_lst.comp .daily_section.on h2#completed {
   color: white;
 }
@@ -106,6 +109,9 @@
 #container #content .snb_wrap.daily._snb_wrap .snb_inner ul.snb._type_selector li a:hover {
   color: rgb(0, 217, 99);
 }
+#container #content .snb_wrap.daily._snb_wrap .snb_inner ul.snb._type_selector li a:before {
+  background-color: rgb(0, 217, 99);
+}
 #container #content .snb_wrap {
   background: rgb(43, 43, 43);
   border-top: 1px solid rgba(1, 222, 137, 0.4941176471);
@@ -117,6 +123,9 @@
 #container #content .snb_wrap .snb_inner .snb._genre li a:hover {
   color: rgb(0, 217, 99);
 }
+#container #content .snb_wrap .snb_inner .snb._genre li a:before {
+  background-color: rgb(0, 217, 99);
+}
 #container #content .snb_sub_genre {
   background: rgb(43, 43, 43);
   border-bottom: 1px solid rgba(1, 222, 137, 0.4941176471);
@@ -126,6 +135,37 @@
 }
 #container #content .snb_sub_genre .ly_lst_genre.as_genre li a:hover {
   color: rgb(0, 217, 99);
+}
+#container #content .snb_sub_genre .ly_lst_genre.as_genre li a:before {
+  background-color: rgb(0, 217, 99);
+}
+#container #content .snb_wrap.popular .snb_inner .snb._ranking_tab li a {
+  color: white;
+}
+#container #content .snb_wrap.popular .snb_inner .snb._ranking_tab li a:hover {
+  color: rgb(0, 217, 99);
+}
+#container #content .snb_wrap.popular .snb_inner .snb._ranking_tab li a:before {
+  background-color: rgb(0, 217, 99);
+}
+#container #content .popular_wrap .ranking_lst.popular .title_area h2 {
+  color: white;
+}
+#container #content .popular_wrap .ranking_lst.popular ul.lst_type1 li {
+  border-bottom: 1px solid rgb(0, 217, 99);
+}
+#container #content .popular_wrap .ranking_lst.popular ul.lst_type1 li.ranking_top a .info_area .subj, #container #content .popular_wrap .ranking_lst.popular ul.lst_type1 li.ranking_top a .info_area .author, #container #content .popular_wrap .ranking_lst.popular ul.lst_type1 li.ranking_top a .info_area .summary span {
+  color: white;
+}
+#container #content .popular_wrap .ranking_lst.popular ul.lst_type1 li a .info_area .subj, #container #content .popular_wrap .ranking_lst.popular ul.lst_type1 li a .info_area .author {
+  color: white;
+}
+#container #content .popular_wrap .ranking_lst.popular ul.lst_type1 li a .num_area .ico_n2, #container #content .popular_wrap .ranking_lst.popular ul.lst_type1 li a .num_area .ico_n3, #container #content .popular_wrap .ranking_lst.popular ul.lst_type1 li a .num_area .ico_n4, #container #content .popular_wrap .ranking_lst.popular ul.lst_type1 li a .num_area .ico_n5, #container #content .popular_wrap .ranking_lst.popular ul.lst_type1 li a .num_area .ico_n6, #container #content .popular_wrap .ranking_lst.popular ul.lst_type1 li a .num_area .ico_n7, #container #content .popular_wrap .ranking_lst.popular ul.lst_type1 li a .num_area .ico_n8, #container #content .popular_wrap .ranking_lst.popular ul.lst_type1 li a .num_area .ico_n9, #container #content .popular_wrap .ranking_lst.popular ul.lst_type1 li a .num_area .ico_n10 {
+  filter: invert(100%);
+}
+#container #content .popular_wrap .ranking_lst.popular ul.ranking_tab {
+  border-bottom: 1px solid rgba(1, 222, 137, 0.4941176471);
+  border-top: 1px solid rgba(1, 222, 137, 0.4941176471);
 }
 
 #footer {
