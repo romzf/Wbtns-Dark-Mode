@@ -62,6 +62,11 @@
                             a .info_area p {
                                 color: $color-white;
                             }
+                            a .num_area {
+                                .ico_n1, .ico_n2, .ico_n3, .ico_n4, .ico_n5 {
+                                    filter: $filter-invert;
+                                }
+                            }
                         }
                     }
                 }
