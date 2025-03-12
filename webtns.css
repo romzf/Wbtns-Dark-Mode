@@ -170,6 +170,27 @@
   border-bottom: 1px solid rgba(1, 222, 137, 0.4941176471);
   border-top: 1px solid rgba(1, 222, 137, 0.4941176471);
 }
+#container #content .snb_wrap .snb_inner .snb.challenge li a {
+  color: white;
+}
+#container #content .snb_wrap .snb_inner .snb.challenge li a:before {
+  background-color: rgb(0, 217, 99);
+}
+#container #content .cont_box.v2 .discover_cont_area .weekly_hot_area h2, #container #content .cont_box.v2 .discover_cont_area .popular_genre_area h2 {
+  color: white;
+}
+#container #content .cont_box.v2 .discover_cont_area .popular_genre_area .genre_menu li a {
+  color: white;
+}
+#container #content .cont_box.v2 .discover_cont_area .popular_genre_area .genre_menu ._genreListItem.on a {
+  color: rgb(0, 217, 99) !important;
+}
+#container #content .cont_box.v2 .discover_cont_area ._btnMore {
+  color: white;
+}
+#container #content .cont_box.v2 .discover_cont_area ._btnMore .ico_arr {
+  filter: invert(100%);
+}
 
 #footer {
   background: rgb(43, 43, 43) !important;
