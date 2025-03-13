@@ -191,6 +191,24 @@
 #container #content .cont_box.v2 .discover_cont_area ._btnMore .ico_arr {
   filter: invert(100%);
 }
+#container #content .cont_box.v2 .challenge_cont_area .challenge_lst ul li a {
+  color: white;
+}
+#container #content .cont_box.v2 .challenge_cont_area .paginate a {
+  color: white;
+}
+#container #content .cont_box.v2 .challenge_cont_area .paginate a.pg_next em {
+  filter: invert(100%);
+}
+#container #content .cont_box.v2 .aside.challenge .ranking_lst.viewer .lst_area .title_area h2 span {
+  color: white;
+}
+#container #content .lst_type1._titleListArea li a .num_area .ico_n1, #container #content .lst_type1._titleListArea li a .num_area .ico_n2, #container #content .lst_type1._titleListArea li a .num_area .ico_n3, #container #content .lst_type1._titleListArea li a .num_area .ico_n4, #container #content .lst_type1._titleListArea li a .num_area .ico_n5 {
+  filter: invert(100%);
+}
+#container #content .lst_type1._titleListArea li a .info_area .subj, #container #content .lst_type1._titleListArea li a .info_area .author {
+  color: white;
+}
 
 #footer {
   background: rgb(43, 43, 43) !important;

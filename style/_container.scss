@@ -226,5 +226,37 @@
                 }
             }
         }
+        // Canvas all
+        .cont_box.v2 .challenge_cont_area {
+            .challenge_lst ul li a{
+                color: $color-white;
+            }
+            .paginate a {
+                color: $color-white;
+            }
+            .paginate a.pg_next em {
+                filter: $filter-invert;
+            }
+        }
+        .cont_box.v2 .aside.challenge .ranking_lst.viewer .lst_area 
+            .title_area h2 span {
+                color: $color-white;
+            }
+            .lst_type1._titleListArea li a {
+                .num_area{
+                    .ico_n1, .ico_n2, .ico_n3, .ico_n4, .ico_n5 {
+                        filter: $filter-invert;
+                    }
+                }
+                .info_area {
+                    .subj, .author {
+                        color: $color-white;
+                    }
+                }
+            }
+            
+        
+        
+        
     }
 }
