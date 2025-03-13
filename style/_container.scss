@@ -226,5 +226,18 @@
                 }
             }
         }
+        // Canvas all
+        .cont_box.v2 .challenge_cont_area {
+            .challenge_lst ul li a{
+                color: $color-white;
+            }
+            .paginate a {
+                color: $color-white;
+            }
+            .paginate a.pg_next em {
+                filter: $filter-invert;
+            }
+        }
+        
     }
 }

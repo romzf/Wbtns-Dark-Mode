@@ -191,6 +191,15 @@
 #container #content .cont_box.v2 .discover_cont_area ._btnMore .ico_arr {
   filter: invert(100%);
 }
+#container #content .cont_box.v2 .challenge_cont_area .challenge_lst ul li a {
+  color: white;
+}
+#container #content .cont_box.v2 .challenge_cont_area .paginate a {
+  color: white;
+}
+#container #content .cont_box.v2 .challenge_cont_area .paginate a.pg_next em {
+  filter: invert(100%);
+}
 
 #footer {
   background: rgb(43, 43, 43) !important;
