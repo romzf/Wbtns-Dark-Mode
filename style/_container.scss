@@ -238,7 +238,7 @@
                 filter: $filter-invert;
             }
         }
-        .cont_box.v2 .aside.challenge .ranking_lst.viewer .lst_area 
+        .cont_box.v2 .aside.challenge .ranking_lst.viewer .lst_area {
             .title_area h2 span {
                 color: $color-white;
             }
@@ -254,7 +254,14 @@
                     }
                 }
             }
-            
+        }
+        // Creators 101         
+        .snb_wrap.creator_hub .snb_inner ul.snb li a {
+            color: $color-white;
+        }
+        .snb_wrap.creator_hub .snb_inner ul.snb li a:before {
+            background-color: $color-lightgreen;
+        }  
         
         
         

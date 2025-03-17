@@ -203,11 +203,17 @@
 #container #content .cont_box.v2 .aside.challenge .ranking_lst.viewer .lst_area .title_area h2 span {
   color: white;
 }
-#container #content .lst_type1._titleListArea li a .num_area .ico_n1, #container #content .lst_type1._titleListArea li a .num_area .ico_n2, #container #content .lst_type1._titleListArea li a .num_area .ico_n3, #container #content .lst_type1._titleListArea li a .num_area .ico_n4, #container #content .lst_type1._titleListArea li a .num_area .ico_n5 {
+#container #content .cont_box.v2 .aside.challenge .ranking_lst.viewer .lst_area .lst_type1._titleListArea li a .num_area .ico_n1, #container #content .cont_box.v2 .aside.challenge .ranking_lst.viewer .lst_area .lst_type1._titleListArea li a .num_area .ico_n2, #container #content .cont_box.v2 .aside.challenge .ranking_lst.viewer .lst_area .lst_type1._titleListArea li a .num_area .ico_n3, #container #content .cont_box.v2 .aside.challenge .ranking_lst.viewer .lst_area .lst_type1._titleListArea li a .num_area .ico_n4, #container #content .cont_box.v2 .aside.challenge .ranking_lst.viewer .lst_area .lst_type1._titleListArea li a .num_area .ico_n5 {
   filter: invert(100%);
 }
-#container #content .lst_type1._titleListArea li a .info_area .subj, #container #content .lst_type1._titleListArea li a .info_area .author {
+#container #content .cont_box.v2 .aside.challenge .ranking_lst.viewer .lst_area .lst_type1._titleListArea li a .info_area .subj, #container #content .cont_box.v2 .aside.challenge .ranking_lst.viewer .lst_area .lst_type1._titleListArea li a .info_area .author {
   color: white;
+}
+#container #content .snb_wrap.creator_hub .snb_inner ul.snb li a {
+  color: white;
+}
+#container #content .snb_wrap.creator_hub .snb_inner ul.snb li a:before {
+  background-color: rgb(0, 217, 99);
 }
 
 #footer {
