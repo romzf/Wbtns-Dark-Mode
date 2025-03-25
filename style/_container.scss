@@ -103,6 +103,23 @@
             .daily_lst.comp .daily_section.on h2#completed{
                 color: $color-white;
             }
+            .snb_sort._sorting{
+                button {
+                    color: $color-white;
+                }
+                .ico_chk2 {
+                    filter: $filter-invert;
+                }
+                .sort_box.on {
+                    background: $background-dark;
+                    li a {
+                        color: $color-white;
+                    }
+                }
+                .sort_box.sort_box {
+                    border: $line-darkgreen;
+                }
+            }
         }
         .snb_wrap.daily._snb_wrap {
             background: $background-dark;

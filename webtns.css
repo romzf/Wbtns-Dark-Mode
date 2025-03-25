@@ -101,6 +101,21 @@
 #container #content div[style*="margin: 69px auto auto auto; width: 1208px; position: relative;"] .daily_lst.comp .daily_section.on h2#completed {
   color: white;
 }
+#container #content div[style*="margin: 69px auto auto auto; width: 1208px; position: relative;"] .snb_sort._sorting button {
+  color: white;
+}
+#container #content div[style*="margin: 69px auto auto auto; width: 1208px; position: relative;"] .snb_sort._sorting .ico_chk2 {
+  filter: invert(100%);
+}
+#container #content div[style*="margin: 69px auto auto auto; width: 1208px; position: relative;"] .snb_sort._sorting .sort_box.on {
+  background: rgb(43, 43, 43);
+}
+#container #content div[style*="margin: 69px auto auto auto; width: 1208px; position: relative;"] .snb_sort._sorting .sort_box.on li a {
+  color: white;
+}
+#container #content div[style*="margin: 69px auto auto auto; width: 1208px; position: relative;"] .snb_sort._sorting .sort_box.sort_box {
+  border: 1px solid rgba(1, 222, 137, 0.4941176471);
+}
 #container #content .snb_wrap.daily._snb_wrap {
   background: rgb(43, 43, 43);
   border-top: 1px solid rgba(1, 222, 137, 0.4941176471);
