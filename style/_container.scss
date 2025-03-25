@@ -167,6 +167,25 @@
                 background-color: $color-lightgreen;
             }
         }
+        .card_wrap.genre {
+            .snb_sort._sorting{
+                button {
+                    color: $color-white;
+                }
+                .ico_chk2 {
+                    filter: $filter-invert;
+                }
+                .sort_box.on {
+                    background: $background-dark;
+                    li a {
+                        color: $color-white;
+                    }
+                }
+                .sort_box.sort_box {
+                    border: $line-darkgreen;
+                }
+            }
+        }
         // Popular
         .snb_wrap.popular {
             .snb_inner {

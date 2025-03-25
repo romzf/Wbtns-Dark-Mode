@@ -157,6 +157,21 @@
 #container #content .snb_sub_genre .ly_lst_genre.as_genre li a:before {
   background-color: rgb(0, 217, 99);
 }
+#container #content .card_wrap.genre .snb_sort._sorting button {
+  color: white;
+}
+#container #content .card_wrap.genre .snb_sort._sorting .ico_chk2 {
+  filter: invert(100%);
+}
+#container #content .card_wrap.genre .snb_sort._sorting .sort_box.on {
+  background: rgb(43, 43, 43);
+}
+#container #content .card_wrap.genre .snb_sort._sorting .sort_box.on li a {
+  color: white;
+}
+#container #content .card_wrap.genre .snb_sort._sorting .sort_box.sort_box {
+  border: 1px solid rgba(1, 222, 137, 0.4941176471);
+}
 #container #content .snb_wrap.popular .snb_inner .snb._ranking_tab li a {
   color: white;
 }
